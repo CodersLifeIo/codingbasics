@@ -23,9 +23,8 @@ int main (int argc, char** argv) {
     printf("The total sums up to $%.2f with taxes.\n", total);
 
     int seasons = 6;
-    seasons = seasons + strlen(name);
 
-    printf("Have look up the %d seasons and waiting for the %s movie.\n", seasons, "one");
+    printf("Have look up the %d seasons and waiting for the %s movie.\n", seasons + (int)strlen(name), "one");
 
     return 0;
 }

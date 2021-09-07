@@ -27,9 +27,8 @@ int main (int argc, char** argv) {
     cout << "The total sums up to $" << total << " with taxes." << endl;
 
     int seasons = 6;
-    seasons = seasons + name.length();
 
-    cout << "Have look up the " << seasons << " seasons and waiting for the " << "one" << " movie." << endl;
+    cout << "Have look up the " << seasons + name.length() << " seasons and waiting for the " << "one" << " movie." << endl;
 
     return 0;
 }

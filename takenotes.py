@@ -9,7 +9,7 @@ print(f"{name} is dropping some knowledge")
 print(f"Everyone knows that {answer} is the answer.")
 print(f"The total sums up to ${total:.2f} with taxes.")
 
-seasons = 6 + len(name)
-movies = 1
+seasons = 6
+movies = "one"
 
-print(f"Have look up the {seasons} seasons and waiting for the {movies} movie.")
+print(f"Have look up the {seasons + len(name)} seasons and waiting for the {movies} movie.")
